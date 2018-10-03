@@ -20,33 +20,36 @@ Level 0
 
           Field      |  Time  |  Match Average
     ---------------- | ------ | ---------------
-    Document number  | [1,2]s |      10/10
+    Document number  | [0,2]s |      10/10
     Expiration date  |   ''   |      09/10
     BirthDate        |   ''   |      09/10
     Document name    |   ''   |      00/10
 
 Level 1
+
           Field      |  Time  |  Match Average
     ---------------- | ------ | ---------------
-    Document number  | [1,2]s |      10/10
+    Document number  | [0,2]s |      10/10
     Expiration date  |   ''   |      10/10
     BirthDate        |   ''   |      09/10
     Document name    |   ''   |      00/10
 
 
 Level 2
+
           Field      |  Time  |  Match Average
     ---------------- | ------ | ---------------
-    Document number  | [1,2]s |      10/10
+    Document number  | [0,2]s |      10/10
     Expiration date  |   ''   |      10/10
     BirthDate        |   ''   |      10/10
     Document name    |   ''   |      01/10
 
 
 Level 3
+
           Field      |  Time  |  Match Average
     ---------------- | ------ | ---------------
-    Document number  | [1,2]s |      10/10
+    Document number  | [0,2]s |      10/10
     Expiration date  |   ''   |      09/10
     BirthDate        |   ''   |      09/10
     Document name    |   ''   |      00/10
@@ -57,4 +60,4 @@ Create a custom Camera Source so it only detect the specific area of the OCR, no
 
 License
 ----
-AT
+MIT
