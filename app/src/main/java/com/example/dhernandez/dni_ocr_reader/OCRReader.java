@@ -19,7 +19,7 @@ public class OCRReader extends AppCompatActivity {
         Intent i = new Intent(this, OCRCameraReader.class);
 
         //TODO: set the explore level you'd like to use
-        i.putExtra("explore_level", 0);
+        i.putExtra("explore_level", 3);
         startActivityForResult(i, 1);
     }
 

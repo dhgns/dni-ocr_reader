@@ -137,19 +137,19 @@ public class OCRCameraReader extends AppCompatActivity {
                                         break;
                                     case 1:
                                         if (ocr_dni.documentNumber != null &&
-                                                ocr_dni.birthDate != null)
+                                                ocr_dni.expirationDate != null)
                                             finishActivity();
                                         break;
                                     case 2:
                                         if (ocr_dni.documentNumber != null &&
-                                                ocr_dni.birthDate != null &&
-                                                ocr_dni.expirationDate != null)
+                                                ocr_dni.expirationDate != null &&
+                                                ocr_dni.birthDate != null)
                                             finishActivity();
                                         break;
                                     case 3:
                                         if (ocr_dni.documentNumber != null &&
-                                                ocr_dni.birthDate != null &&
                                                 ocr_dni.expirationDate != null &&
+                                                ocr_dni.birthDate != null &&
                                                 ocr_dni.documentName != null)
                                             finishActivity();
                                         break;
@@ -175,7 +175,7 @@ public class OCRCameraReader extends AppCompatActivity {
         returnIntent.putExtra("result", ocr_dni.getBundle());
         setResult(RESULT_OK, returnIntent);
 
-        finish();
+     //   finish();
 
     }
 
